@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/0fcd0b6086.js"></script>
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            background: linear-gradient(-250deg, #AC32E4 0%, #7918F2 50%, #4801FF 100%);
+        }
+        h1{
+            margin-top: 150px;
+            font-size: 65px;
+            letter-spacing: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        button{
+            margin-top: 120px;
+            left: 40%;
+            text-align: center;
+            border: 0;
+            padding: 15px 80px;
+            border-radius: 50px;
+            background: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+            background-size: 200% auto;
+            transition: all ease-in-out 0.3s;
+            color: #fff;
+            font-size: 25px;
+            font-weight: lighter;
+            position: relative;
+            display: inline-block;
+        }
+        button:hover{
+            background-position: top center;
+        }
+        span{
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            padding: 3px 10px;
+            border-radius: 50%;
+            background: #fff;
+            color: #000;
+        }
+        .fas{
+            font-size: 30px;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notification Button</h1>
+    <button type="button">
+        <i class="fas fa-envelope"></i>
+        Mail
+        <span>8</span>
+    </button>
+</body>
+</html>
